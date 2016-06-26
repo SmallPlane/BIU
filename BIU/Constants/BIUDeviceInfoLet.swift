@@ -46,7 +46,7 @@ let DIStatusBarHeight               = CGFloat(20.0);
 let DINavigationBarHeight           = CGFloat(44.0);
 let DITabBarHeight                  = CGFloat(49.0);
 let DIStatusNavBarHeight            = CGFloat(64.0);
-let DIMainHeight                    = UIScreen.mainScreen().bounds.size.height;
+let DIMainHeight                    = UIScreen.mainScreen().bounds.size.height - DIStatusNavBarHeight;
 let DIMainWidth                     = DIScreenWidth;
 
 /**
