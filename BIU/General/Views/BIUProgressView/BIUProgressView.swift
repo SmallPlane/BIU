@@ -13,7 +13,6 @@ class BIUProgressView: UIView {
     var _progressValue: CGFloat?;
     var progressValue: CGFloat? {
         get {
-            print("1");
             return _progressValue;
         }
         set(newValue) {

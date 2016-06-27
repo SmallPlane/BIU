@@ -23,6 +23,7 @@
 		47B504EB1D1BEA8900CDE5B6 /* BIUMyCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B504EA1D1BEA8900CDE5B6 /* BIUMyCenterController.swift */; };
 		47B504ED1D1BEA9400CDE5B6 /* BIUHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B504EC1D1BEA9400CDE5B6 /* BIUHomePageController.swift */; };
 		47BE92B51D1D3E6C002561B3 /* HPHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE92B41D1D3E6C002561B3 /* HPHeaderReusableView.swift */; };
+		47E0D2A61D20BFB700502AE8 /* BIUPersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0D2A51D20BFB700502AE8 /* BIUPersonalCenterViewController.swift */; };
 		A7096DD81D2031A80045655F /* HPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7096DD71D2031A80045655F /* HPCollectionViewCell.swift */; };
 		A765BDD91D205C7C0013DCA9 /* BIUProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A765BDD81D205C7C0013DCA9 /* BIUProgressView.swift */; };
 		A7ED405E1D1C43130084515D /* BIUUIFormatLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED405D1D1C43130084515D /* BIUUIFormatLet.swift */; };
@@ -70,6 +71,7 @@
 		47B504EA1D1BEA8900CDE5B6 /* BIUMyCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUMyCenterController.swift; sourceTree = "<group>"; };
 		47B504EC1D1BEA9400CDE5B6 /* BIUHomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUHomePageController.swift; sourceTree = "<group>"; };
 		47BE92B41D1D3E6C002561B3 /* HPHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPHeaderReusableView.swift; sourceTree = "<group>"; };
+		47E0D2A51D20BFB700502AE8 /* BIUPersonalCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUPersonalCenterViewController.swift; sourceTree = "<group>"; };
 		A7096DD71D2031A80045655F /* HPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPCollectionViewCell.swift; sourceTree = "<group>"; };
 		A765BDD81D205C7C0013DCA9 /* BIUProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUProgressView.swift; sourceTree = "<group>"; };
 		A7ED405D1D1C43130084515D /* BIUUIFormatLet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUUIFormatLet.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 			children = (
 				47B504D21D1BD9D700CDE5B6 /* BIUBaseViewController.swift */,
 				47B504D41D1BD9FF00CDE5B6 /* BIUBaseNavigationController.swift */,
+				47E0D2A51D20BFB700502AE8 /* BIUPersonalCenterViewController.swift */,
 			);
 			path = BaseViewControllers;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				47066C471D1CD1AD009F1F6F /* UIImage+PureColor.swift in Sources */,
 				47B504EB1D1BEA8900CDE5B6 /* BIUMyCenterController.swift in Sources */,
 				47B504ED1D1BEA9400CDE5B6 /* BIUHomePageController.swift in Sources */,
+				47E0D2A61D20BFB700502AE8 /* BIUPersonalCenterViewController.swift in Sources */,
 				47B504E91D1BEA7500CDE5B6 /* BIUAnnounceController.swift in Sources */,
 				47B504E71D1BEA4700CDE5B6 /* BIUTabBarController.swift in Sources */,
 				47B504D31D1BD9D700CDE5B6 /* BIUBaseViewController.swift in Sources */,
