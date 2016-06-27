@@ -127,6 +127,18 @@ class HPHeaderReusableView: UICollectionReusableView {
         tempLabel.font = BIUFontTextHeadLineBold;
         tempLabel.textColor = BIUColorTextHeadline;
         
+        let guessString: NSString = "唯一最低价 ● 竞猜";
+        let guessAttributedString = NSMutableAttributedString(string: guessString as String);
+        guessAttributedString.addAttribute(NSFontAttributeName,
+                                           value: BIUFontTextHeadLineBold,
+                                           range: NSMakeRange(0, guessString.length));
+        
+        guessAttributedString.addAttribute(NSForegroundColorAttributeName,
+                                           value: BIUColorRed,
+                                           range: NSMakeRange(guessString.length - 2, 2));
+        
+        tempLabel.attributedText = guessAttributedString;
+        
         return tempLabel;
     }();
 }

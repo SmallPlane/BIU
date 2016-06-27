@@ -165,19 +165,6 @@ class BIUHomePageController: BIUBaseViewController
         
         headerView.notificationLabel.attributedText = notAttributedString;
         
-        
-        let guessString: NSString = "唯一最低价 ● 竞猜";
-        let guessAttributedString = NSMutableAttributedString(string: guessString as String);
-        guessAttributedString.addAttribute(NSFontAttributeName,
-                                         value: BIUFontTextHeadLineBold,
-                                         range: NSMakeRange(0, guessString.length));
-        
-        guessAttributedString.addAttribute(NSForegroundColorAttributeName,
-                                         value: BIUColorRed,
-                                         range: NSMakeRange(guessString.length - 2, 2));
-        
-        headerView.guessLabel.attributedText = guessAttributedString;
-        
         return headerView;
     }
     
