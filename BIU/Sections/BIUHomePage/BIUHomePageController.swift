@@ -169,4 +169,10 @@ class BIUHomePageController: BIUBaseViewController
     }
     
 //MARK: - UICollectionViewDelegate
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let viewController = BIUAuctionDetailViewController();
+        viewController.hidesBottomBarWhenPushed = true;
+        
+        self.navigationController?.pushViewController(viewController, animated: true);
+    }
 }

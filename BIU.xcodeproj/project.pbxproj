@@ -26,6 +26,10 @@
 		47E0D2A61D20BFB700502AE8 /* BIUPersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0D2A51D20BFB700502AE8 /* BIUPersonalCenterViewController.swift */; };
 		A7096DD81D2031A80045655F /* HPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7096DD71D2031A80045655F /* HPCollectionViewCell.swift */; };
 		A765BDD91D205C7C0013DCA9 /* BIUProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A765BDD81D205C7C0013DCA9 /* BIUProgressView.swift */; };
+		A76EF3A21D256C4C0008649A /* BIUAuctionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EF3A11D256C4C0008649A /* BIUAuctionDetailViewController.swift */; };
+		A76EF3A81D25771B0008649A /* AuctionDetailSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EF3A71D25771B0008649A /* AuctionDetailSectionHeader.swift */; };
+		A76EF3AA1D2577490008649A /* AuctionDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EF3A91D2577490008649A /* AuctionDetailCell.swift */; };
+		A7D9DB4A1D2578730034B1FF /* AuctionDetailProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D9DB491D2578730034B1FF /* AuctionDetailProgressView.swift */; };
 		A7ED405E1D1C43130084515D /* BIUUIFormatLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED405D1D1C43130084515D /* BIUUIFormatLet.swift */; };
 		A7ED40601D1C43400084515D /* BIUDeviceInfoLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED405F1D1C43400084515D /* BIUDeviceInfoLet.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +78,10 @@
 		47E0D2A51D20BFB700502AE8 /* BIUPersonalCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUPersonalCenterViewController.swift; sourceTree = "<group>"; };
 		A7096DD71D2031A80045655F /* HPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPCollectionViewCell.swift; sourceTree = "<group>"; };
 		A765BDD81D205C7C0013DCA9 /* BIUProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUProgressView.swift; sourceTree = "<group>"; };
+		A76EF3A11D256C4C0008649A /* BIUAuctionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUAuctionDetailViewController.swift; sourceTree = "<group>"; };
+		A76EF3A71D25771B0008649A /* AuctionDetailSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionDetailSectionHeader.swift; sourceTree = "<group>"; };
+		A76EF3A91D2577490008649A /* AuctionDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionDetailCell.swift; sourceTree = "<group>"; };
+		A7D9DB491D2578730034B1FF /* AuctionDetailProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionDetailProgressView.swift; sourceTree = "<group>"; };
 		A7ED405D1D1C43130084515D /* BIUUIFormatLet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUUIFormatLet.swift; sourceTree = "<group>"; };
 		A7ED405F1D1C43400084515D /* BIUDeviceInfoLet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIUDeviceInfoLet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -247,6 +255,7 @@
 		47B504CB1D1BD91400CDE5B6 /* BIUHomePage */ = {
 			isa = PBXGroup;
 			children = (
+				A76EF3A01D256C220008649A /* BIUAuctionDetail */,
 				47B504EC1D1BEA9400CDE5B6 /* BIUHomePageController.swift */,
 				47BE92B41D1D3E6C002561B3 /* HPHeaderReusableView.swift */,
 				A7096DD71D2031A80045655F /* HPCollectionViewCell.swift */,
@@ -326,6 +335,17 @@
 				A765BDD81D205C7C0013DCA9 /* BIUProgressView.swift */,
 			);
 			path = BIUProgressView;
+			sourceTree = "<group>";
+		};
+		A76EF3A01D256C220008649A /* BIUAuctionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A76EF3A11D256C4C0008649A /* BIUAuctionDetailViewController.swift */,
+				A7D9DB491D2578730034B1FF /* AuctionDetailProgressView.swift */,
+				A76EF3A71D25771B0008649A /* AuctionDetailSectionHeader.swift */,
+				A76EF3A91D2577490008649A /* AuctionDetailCell.swift */,
+			);
+			path = BIUAuctionDetail;
 			sourceTree = "<group>";
 		};
 		A7ED405C1D1C42900084515D /* Constants */ = {
@@ -475,12 +495,16 @@
 				47E0D2A61D20BFB700502AE8 /* BIUPersonalCenterViewController.swift in Sources */,
 				47B504E91D1BEA7500CDE5B6 /* BIUAnnounceController.swift in Sources */,
 				47B504E71D1BEA4700CDE5B6 /* BIUTabBarController.swift in Sources */,
+				A76EF3A21D256C4C0008649A /* BIUAuctionDetailViewController.swift in Sources */,
+				A76EF3AA1D2577490008649A /* AuctionDetailCell.swift in Sources */,
 				47B504D31D1BD9D700CDE5B6 /* BIUBaseViewController.swift in Sources */,
+				A76EF3A81D25771B0008649A /* AuctionDetailSectionHeader.swift in Sources */,
 				A7096DD81D2031A80045655F /* HPCollectionViewCell.swift in Sources */,
 				47B504DF1D1BE43900CDE5B6 /* UIViewController+StatusBar.swift in Sources */,
 				A765BDD91D205C7C0013DCA9 /* BIUProgressView.swift in Sources */,
 				47B504D51D1BD9FF00CDE5B6 /* BIUBaseNavigationController.swift in Sources */,
 				47B504DD1D1BE41000CDE5B6 /* UIViewController+NaVationBar.swift in Sources */,
+				A7D9DB4A1D2578730034B1FF /* AuctionDetailProgressView.swift in Sources */,
 				47B504C71D1BD86C00CDE5B6 /* AppDelegate.swift in Sources */,
 				47BE92B51D1D3E6C002561B3 /* HPHeaderReusableView.swift in Sources */,
 				A7ED405E1D1C43130084515D /* BIUUIFormatLet.swift in Sources */,
